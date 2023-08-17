@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'md-linux' }
     tools {
-      maven 'Maven-3.8.4'
+      maven 'Maven-3.9.4'
     }
     stages {
         stage('Source') {
